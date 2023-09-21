@@ -7,10 +7,10 @@
   color: rgb(248 250 252);
 }
 
-.tileAnimate {
+.TileAnimate {
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
-.tileAnimate:hover {
+.TileAnimate:hover {
   transform: translateY(-10px);
 
   transition: transform 0.3s ease;
@@ -23,6 +23,6 @@
   -ms-transform: translateY(-10px);
   -o-transform: translateY(-10px);
 }
-.ModalAnimateTile {
+.UserDetailsModal {
   box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 3px;
 }
