@@ -1,23 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import InfiniteScrolling from "./components/InfiniteScrolling";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="font-mono flex justify-center items-center flex-col lg:mx-36 py-20">
+      <h1 className=" text-4xl animate-pulse font-semibold text-center mb-20">
+        Infinite Scrolling.
+      </h1>
+      <InfiniteScrolling />
     </div>
   );
 }
